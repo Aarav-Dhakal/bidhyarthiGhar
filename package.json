@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "npm run dev --prefix bidhyarthi-ghar/server",
+    "client": "npm start --prefix bidhyarthi-ghar"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "node": "^25.8.2"
+  }
+}
